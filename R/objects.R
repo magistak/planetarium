@@ -7,6 +7,7 @@ a <- as.numeric(a)
 b<- as.numeric(b)
 b-a
 planet_table[1, ] <- c("Sun", 0, Sys.time(), 0, 23.655)
+Sys.time()
 as.POSIXct.numeric()
 ?as.POSIXct.numeric
 # angular velocity is in degrees per hour
@@ -16,3 +17,4 @@ init<-as.POSIXct(strptime("2011-03-27 01:30:00", "%Y-%m-%d %H:%M:%S"))
 c<-a - as.numeric(init)
 c/60/60/24/365.25
 as.POSIXct(strptime("2010-10-31 01:30:00", "%Y-%m-%d %H:%M:%S"))
+# add comment
